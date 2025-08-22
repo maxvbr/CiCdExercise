@@ -1,0 +1,16 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = null;
+}
+
+<h1>Hello World</h1>
+
+@if (Model.Value("companyName") != null)
+{
+    <h2>Company: @Model.Value("companyName")</h2>
+}
+else
+{
+    <p>Company name not set</p>
+}
