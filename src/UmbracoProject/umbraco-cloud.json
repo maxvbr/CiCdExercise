@@ -1,10 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Name": "cicdexercise",
+      "Name": "CiCDExercise",
       "Alias": "cicdexercise",
       "Id": "17c8be74-3791-4365-8a1e-b5c1fa17a42c",
+      "Url": "https://www.s1.umbraco.io/project/cicdexercise",
       "Workspaces": [
+        {
+          "Id": "8b9c738a-d2e9-4cc3-9a3c-e86c51bca917",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-cicdexercise.uksouth01.umbraco.io"
+        },
         {
           "Id": "c473a437-1fa0-45ac-8a07-0c98e1956b74",
           "Name": "Live",
